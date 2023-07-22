@@ -1,0 +1,12 @@
+#!/bin/sh
+
+COMMIT_MESSAGE=$(cat $1)
+REQUIRED_MESSAGE='AO407699'
+
+if echo "$COMMIT_MESSAGE" | grep "^$REQUIRED_MESSAGE";
+then
+	echo "correct\n"
+	exit 0
+fi
+echo "wrong commit message, required $REQUIRED_MESSAGE\n"
+exit 1
