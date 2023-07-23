@@ -1,4 +1,4 @@
-# DevOps_Labs_Projects
+# DevOps :D 
 This repository is based on various classes covering different topics from Infrastructure, Development, and Administration, focusing on DevOps principles.
 
 You can find my original branch at AO407699 : https://github.com/InzynieriaOprogramowaniaAGH/MDO2023_INO/tree/AO407699
